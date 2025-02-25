@@ -1,0 +1,24 @@
+.success-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f8ff; /* Light blue */
+    border: 2px solid #87ceeb; /* Sky blue */
+    border-radius: 5px;
+  }
+  
+  .success-icon svg {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 20px;
+    color: #32cd32; /* Lime green */
+  }
+  
+  .success-message {
+    margin: 0;
+    color: #32cd32; /* Lime green */
+  }
+  
+  .success-description {
+    color: #444;
+  }
+  
