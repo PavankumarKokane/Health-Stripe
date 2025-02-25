@@ -20,6 +20,7 @@ const HealthPlans = () => {
       const { error } = await stripe.redirectToCheckout({
         lineItems: [{ price: planId, quantity: 1 }], // Replace 'price_12345' with your actual product price ID
         mode: "payment",
+        billingAddressCollection: "required",
         successUrl: `${baseUrl}/success`,
         cancelUrl: `${baseUrl}/cancel`,
       });
